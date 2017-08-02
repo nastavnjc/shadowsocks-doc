@@ -25,6 +25,10 @@ external_resources:
 
 Let’s say you find yourself in a situation where OpenVPN traffic is blocked or throttled, ShadowSocks is a good alternative to tunnel the entire network traffic.
 
+{: .note}
+>
+> This guide is written for a non-root user. Commands that require elevated privileges are prefixed with `sudo`. If you’re not familiar with the `sudo` command, see the [Users and Groups](/docs/tools-reference/linux-users-and-groups) guide.
+
 ## Before You Begin
 
 1.  Complete the [Getting Started](/docs/getting-started) guide.
