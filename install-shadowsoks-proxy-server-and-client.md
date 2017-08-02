@@ -110,14 +110,6 @@ Before we start shahdowsocks on our server, let’s create a new file and put th
 
         netstat -tlnp
     
-4.  It's a good idea to restart our Linode to see if everything is working:
-
-        sudo shutdown -r now
-
-5.  Once restarted, verify the log file again:
-
-        tail /var/log/shadowsocks.log
-    
 ## Starting at system boot
 
 1.  Run the below command to open the '/etc/rc.local' file using your command line editor:
