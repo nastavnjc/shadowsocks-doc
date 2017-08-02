@@ -94,7 +94,7 @@ Save and close the configuration file using **wq!** and move to the next step to
 
 ## Starting Shadowsocks on Ubuntu 16.04
 
-Once you have placed your configurations, use below commands to start, stop or restart your Shadowsocks server as shown below.
+Once you have your configuration in place, use below commands to start, stop or restart your Shadowsocks server as shown.
 
     sudo ssserver -c /etc/shadowsocks.json -d start
     
