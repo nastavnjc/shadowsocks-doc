@@ -3,4 +3,3 @@ Installing and configuring a ShawdowSocks Proxy Server and Client on Ubuntu 16.0
 <hr>
 
 [Continue reading...](./install-shadowsoks-proxy-server-and-client.md)
-[Read on] (https://github.com/nastavnjc/shadowsocks-doc/blob/master/install-shadowsoks-proxy-server-and-client.md)
