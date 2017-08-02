@@ -119,7 +119,7 @@ Before we start shahdowsocks on our server, let’s create a new file and put th
 
         /usr/bin/python /usr/local/bin/ssserver -c /etc/shadowsocks.json -d start
         
-3.  It's a good idea to restart our Linode to see if everything is working:
+3.  It's a good idea to restart your server to see if everything is working:
 
         sudo shutdown -r now
 
