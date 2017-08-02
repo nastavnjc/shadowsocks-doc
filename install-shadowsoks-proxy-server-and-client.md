@@ -24,3 +24,21 @@ external_resources:
 ![Install ShadowSocks on Ubuntu 16.04](https://github.com/nastavnjc/shadowsocks-doc/blob/master/install-shadowsocks-on-ubuntu-16-04.png "Install ShadowSocks on Ubuntu 16.04")
 
 Let’s say if you find yourself in a situation where OpenVPN traffic is blocked or throttled, ShadowSocks is a good alternative to a VPN that can be installed in OpenWRT routers to tunnel the entire network traffic. That software tunnels encrypts your Internet browsing.
+
+## Before You Begin
+
+1.  Complete the [Getting Started](/docs/getting-started) guide.
+
+2.  Follow the [Securing Your Server](/docs/security/securing-your-server/) guide to create a standard user account, harden SSH access and remove unnecessary network services; this guide will use `sudo` wherever possible. Do **not** follow the *Configuring a Firewall* section--this guide has instructions specifically for an Odoo production server.
+
+3.  Log in to your Linode via SSH and check for updates using `apt-get` package manager.
+
+        sudo apt-get update && sudo apt-get upgrade
+
+##Open Corresponding Firewall Ports
+
+In this case we're using ShadowSocks's default port 8000, but this could be any port you specify later in the configuration file.
+
+    sudo ufw allow ssh
+    sudo ufw allow 8000/tcp
+    sudo ufw enable
