@@ -23,7 +23,7 @@ external_resources:
 
 ![Install ShadowSocks on Ubuntu 16.04](https://github.com/nastavnjc/shadowsocks-doc/blob/master/install-shadowsock-on-ubuntu-16-04.png "Install ShadowSocks on Ubuntu 16.04")
 
-Let’s say if you find yourself in a situation where OpenVPN traffic is blocked or throttled, ShadowSocks is a good alternative to tunnel the entire network traffic.
+Let’s say you find yourself in a situation where OpenVPN traffic is blocked or throttled, ShadowSocks is a good alternative to tunnel the entire network traffic.
 
 ## Before You Begin
 
