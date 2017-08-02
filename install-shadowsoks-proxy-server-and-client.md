@@ -68,7 +68,7 @@ This will installs the latest available package.
 
 Before we start shahdowsocks on our server, let’s create a new file and put the following configuration contents in it that contains your hostname or server IP (IPv4/IPv6) , server port number, local port number, a password used to encrypt transfer, connection timeout and and encryption method like “aes-256-cfb”, “bf-cfb”, “des-cfb” or “rc4”, etc. the default encryption method used is table, which is not secure so we will be using 'aes-256-cfb' which is recommended.
 
-So, run the below command to open a new file using your command line editor and put the following configuration parameters in it.
+Run the below command to open a new file using your command line editor and put the following configuration parameters in it.
 
     sudo vim /etc/shadowsocks.json
     
@@ -102,11 +102,21 @@ Once you have your configuration in place, use below commands to start, stop or 
     
     sudo ssserver -c /etc/shadowsocks.json -d restart
     
-You can check from its log file if the server has been started successfully or if there is any error.
+You can check from its log file if the server has been started successfully, any error will be reported here.
 
     tail /var/log/shadowsocks.log
     
-You can also check if the port ‘8000’ is listening on the server or not using below command.
+You can also check if the port ‘8000’ is listening on the server using below command.
 
     netstat -tlnp
+    
+## Starting at system boot
+
+Run the below command to open the '/etc/rc.local' file using your command line editor.
+
+    sudo vim /etc/rc.local
+
+Add the following line to auto start Shadosocks service at boot.
+
+    /usr/bin/python /usr/local/bin/ssserver -c /etc/shadowsocks.json -d start
     
