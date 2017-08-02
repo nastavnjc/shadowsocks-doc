@@ -43,7 +43,6 @@ Let’s say you find yourself in a situation where OpenVPN traffic is blocked or
 
 In this case we're using ShadowSocks's default port 8000, but this could be any port you specify later in the configuration file.
 
-    sudo ufw allow ssh
     sudo ufw allow 8000/tcp
     sudo ufw enable
 
