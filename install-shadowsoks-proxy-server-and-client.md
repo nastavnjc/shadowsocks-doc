@@ -87,8 +87,8 @@ So, run the below command to open a new file using your command line editor and 
 
 {: .note}
 >
-> Be sure to replace 'your_server_ip' with the ip address of your Ubuntu Server. Usually, ShadowSocks listen on port  '8000'  but you can change with your own port. If so, remenber to add a firewall rule accordingly.
-'local_port' is referring to a listening port on your device (PC, Phone, etc.), youcan leave it as it is.
-Be sure to replace 'p4ssw0rD' with your own strong password. 
+> Be sure to replace **your_server_ip** with the ip address of your Ubuntu Server. Usually, ShadowSocks listen on port  **8000**  but you can change with your own port. If so, remenber to add a firewall rule accordingly.
+**local_port** is referring to a listening port on your device (PC, Phone, etc.), youcan leave it as it is.
+Be sure to replace **p4ssw0rD** with your own strong password. 
 
 Save and close the configuration file using **wq!** and move to the next step to start your Shahdosocks server on your Ubuntu 16.04 server.
