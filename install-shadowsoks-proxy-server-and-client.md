@@ -66,9 +66,23 @@ This will installs the latest available package.
 
 ## Configuring Shadowsocks on Ubuntu 16.04
 
-Now before we start shahdowsocks on our server, let’s create a new file and put the following configuration contents in it that contains your hostname or server IP (IPv4/IPv6) , server port number, local port number, a password used to encrypt transfer, connection timeout and and encryption method like “aes-256-cfb”, “bf-cfb”, “des-cfb” or “rc4”, etc. the default encryption method used is table, which is not secure so we will be using 'aes-256-cfb' which is recommended.
+Before we start shahdowsocks on our server, let’s create a new file and put the following configuration contents in it that contains your hostname or server IP (IPv4/IPv6) , server port number, local port number, a password used to encrypt transfer, connection timeout and and encryption method like “aes-256-cfb”, “bf-cfb”, “des-cfb” or “rc4”, etc. the default encryption method used is table, which is not secure so we will be using 'aes-256-cfb' which is recommended.
 
 So, run the below command to open a new file using your command line editor and put the following configuration parameters in it.
 
     sudo vim /etc/shadowsocks.json
     
+{: .file }
+/etc/shadowsocks.json
+:   ~~~ conf
+    {
+    "server":"your_server_ip",
+    "server_port":8000,
+    "local_port":1080,
+    "password":"p4ssw0rD",
+    "timeout":600,
+    "method":"aes-256-cfb"
+}
+    ~~~
+    
+Save and close the configuration file using 'wq!' and move to the next step to start your Shahdosocks server on your Ubuntu 16 server.
