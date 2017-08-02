@@ -9,13 +9,13 @@ published: 'Wednesday, August 2th, 2017'
 modified: 'Wednesday, August 2th, 2017'
 modified_by:
   name: Linode
-title: 'Install Odoo 9 ERP on Ubuntu 14.04'
+title: 'Installing and configuring a ShawdowSocks Proxy Server and Client on Ubuntu 16.04.2 LTS (Xenial Xerus)'
 contributor:
-  name: Damaso Sanoja
-external_resources:
- - '[Odoo User Documentation](https://doc.odoo.com/book/)'
+  name: Roberto Rossi
+  link: https://github.com/nastavnjc/
+  external_resources:
+- '[ShadowSocks](https://shadowsocks.org)'}
 ---
-
 
 ---
 author:
