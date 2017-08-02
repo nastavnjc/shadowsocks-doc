@@ -94,29 +94,29 @@ Save and close the configuration file using **wq!** and move to the next step to
 
 ## Starting Shadowsocks on Ubuntu 16.04
 
-1.Once you have your configuration in place, use below commands to start, stop or restart your Shadowsocks server as shown:
+1.  Once you have your configuration in place, use below commands to start, stop or restart your Shadowsocks server as shown:
 
-    sudo ssserver -c /etc/shadowsocks.json -d start
+        sudo ssserver -c /etc/shadowsocks.json -d start
     
-    sudo ssserver -c /etc/shadowsocks.json -d stop
+        sudo ssserver -c /etc/shadowsocks.json -d stop
     
-    sudo ssserver -c /etc/shadowsocks.json -d restart
+        sudo ssserver -c /etc/shadowsocks.json -d restart
     
-2.You can check from its log file if the server has been started successfully, any error will be reported here:
+2.  Check from its log file if the server has been started successfully, any error will be reported here:
 
-    tail /var/log/shadowsocks.log
+        tail /var/log/shadowsocks.log
     
-3.You can also check if the server is listening on port ‘8000’ using below command:
+3.  Also check if the server is listening on port ‘8000’ using below command:
 
-    netstat -tlnp
+        netstat -tlnp
     
-4.It's a good idea to restart our Linode to see if everything is working:
+4.  It's a good idea to restart our Linode to see if everything is working:
 
-    sudo shutdown -r now
+        sudo shutdown -r now
 
-5.Once restarted, verify the log file again:
+5.  Once restarted, verify the log file again:
 
-    tail /var/log/shadowsocks.log
+        tail /var/log/shadowsocks.log
     
 ## Starting at system boot
 
