@@ -3,10 +3,10 @@ author:
   name: Linode Community
   email: docs@linode.com
 description: 'ShadowSocks is a secure socks5 proxy, designed to protect your Internet traffic. It encrypts the traffic between you and the servers, so nobody can spy on you. The main difference compare to VPN is that Shadowsocks is not global, which means not all your traffic will go through the servers.'
-keywords: 'Odoo,Odoo ERP,CMS,Ubuntu,CRM,OpenERP'
+keywords: 'shadowsocks, Ubuntu, proxy'
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 'Tuesday, November 3rd, 2015'
-modified: 'Thursday, July 21st, 2016'
+published: 'Wednesday, August 2th, 2017'
+modified: 'Wednesday, August 2th, 2017'
 modified_by:
   name: Linode
 title: 'Install Odoo 9 ERP on Ubuntu 14.04'
@@ -25,7 +25,7 @@ description: 'ShadowSocks is a secure socks5 proxy, designed to protect your Int
 keywords: 'shadowsocks, Ubuntu, proxy'
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 'Wednesday, August 2th, 2017'
-modified: Wednesday, August 2th, 2017
+modified: 'Wednesday, August 2th, 2017'
 modified_by:
   name: Linode
 title: 'Installing and configuring a ShawdowSocks Proxy Server and Client on Ubuntu 16.04.2 LTS (Xenial Xerus)'
