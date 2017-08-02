@@ -54,3 +54,4 @@ There are multiple ways to install it on your Linux system, but the most simple 
     sudo apt-get install python-pip
     sudo apt-get install python-m2crypto
     
+This will installs the Python PIP and Python-m2crypt packages along with its other dependencies, the m2crypt package makes the encryption more faster. Once you asked for confirmation, press **Y** key to continue the installing the required package along with other dependencies.
