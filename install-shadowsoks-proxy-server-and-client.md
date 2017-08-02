@@ -46,3 +46,9 @@ In this case we're using ShadowSocks's default port 8000, but this could be any 
     sudo ufw allow ssh
     sudo ufw allow 8000/tcp
     sudo ufw enable
+
+## Installing Pip
+
+    sudo apt-get install python-pip
+    sudo apt-get install python-m2crypto
+    
