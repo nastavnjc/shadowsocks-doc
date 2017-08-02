@@ -75,7 +75,7 @@ So, run the below command to open a new file using your command line editor and 
 {: .file }
 /etc/shadowsocks.json
 :   ~~~ conf
-    {
+{
     "server":"your_server_ip",
     "server_port":8000,
     "local_port":1080,
@@ -85,4 +85,4 @@ So, run the below command to open a new file using your command line editor and 
 }
     ~~~
     
-Save and close the configuration file using 'wq!' and move to the next step to start your Shahdosocks server on your Ubuntu 16 server.
+Save and close the configuration file using **wq!** and move to the next step to start your Shahdosocks server on your Ubuntu 16.04 server.
