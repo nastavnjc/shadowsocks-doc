@@ -118,4 +118,12 @@ Before we start shahdowsocks on our server, let’s create a new file and put th
 2.  Add the following line to auto start Shadosocks service at boot:
 
         /usr/bin/python /usr/local/bin/ssserver -c /etc/shadowsocks.json -d start
+        
+3.  It's a good idea to restart our Linode to see if everything is working:
+
+        sudo shutdown -r now
+
+4.  Once restarted, verify the log file again:
+  
+        tail /var/log/shadowsocks.log
     
