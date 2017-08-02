@@ -91,3 +91,22 @@ So, run the below command to open a new file using your command line editor and 
 'local_port' is referring to a listening port on your device (PC, Phone, etc.), you can leave it as it is. Be sure to replace **p4ssw0rD** with your own strong password. 
 
 Save and close the configuration file using **wq!** and move to the next step to start your Shahdosocks server on your Ubuntu 16.04 server.
+
+## Starting Shadowsocks on Ubuntu 16.04
+
+Once you have placed your configurations, use below commands to start, stop or restart your Shadowsocks server as shown below.
+
+    sudo ssserver -c /etc/shadowsocks.json -d start
+    
+    sudo ssserver -c /etc/shadowsocks.json -d stop
+    
+    sudo ssserver -c /etc/shadowsocks.json -d restart
+    
+You can check from its log file if the server has been started successfully or if there is any error.
+
+    tail /var/log/shadowsocks.log
+    
+You can also check if the port ‘8000’ is listening on the server or not using below command.
+
+    netstat -tlnp
+    
