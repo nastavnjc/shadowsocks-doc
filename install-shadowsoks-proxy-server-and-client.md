@@ -35,7 +35,7 @@ Let’s say if you find yourself in a situation where OpenVPN traffic is blocked
 
         sudo apt-get update && sudo apt-get upgrade
 
-##Open Corresponding Firewall Ports
+## Open Corresponding Firewall Ports
 
 In this case we're using ShadowSocks's default port 8000, but this could be any port you specify later in the configuration file.
 
