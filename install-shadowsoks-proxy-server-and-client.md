@@ -17,7 +17,7 @@ contributor:
 - '[ShadowSocks](https://shadowsocks.org)'}
 ---
 
-*This is a Linode Community guide. Write for us and earn $250 per published guide.*
+*This is a Linode Community guide. If you're an expert on something we need a guide on, you too can [get paid to write for us](/docs/contribute).*
 <hr>
 
 *This is a Linode Community guide. If you're an expert on something we need a guide on, you too can [get paid to write for us](/docs/contribute).*
