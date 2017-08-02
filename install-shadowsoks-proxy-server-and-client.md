@@ -2,7 +2,27 @@
 author:
   name: Linode Community
   email: docs@linode.com
-description: 'ShadowSocks is a cross platform and fast tunnel proxy that helps you bypass firewalls available for Windows, Mac, Linux, Android and iPhone. Its a secure socks5 proxy, designed to protect your Internet traffic. It encrypts the traffic between you and the servers, so the Internet Service Providers can not spy on you, once the ISP do not know what you are looking for, they will not stop the traffic, so you can bypass the restrictions by the ISP and can easily penetrate corporate firewalls and access censored sites. The main difference compare to VPN is Shadowsocks is not global, which means not all your traffic will go through the servers. VPN is global, once you connect to VPN servers, all your traffic will go through the servers and the main benefits of Shadowsocks is you can choose which traffic will go through the server and which will not. '
+description: 'ShadowSocks is a secure socks5 proxy, designed to protect your Internet traffic. It encrypts the traffic between you and the servers, so nobody can spy on you. The main difference compare to VPN is that Shadowsocks is not global, which means not all your traffic will go through the servers.'
+keywords: 'shadowsocks,Ubuntu,proxy'
+license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
+published: 'Wednesday, August 2th, 2017'
+modified: Wednesday, August 2th, 2017
+modified_by:
+  name: Linode
+title: 'Installing and configuring a ShawdowSocks Proxy Server and Client on Ubuntu 16.04.2 LTS (Xenial Xerus)'
+contributor:
+  name: Roberto Rossi
+  link: https://github.com/nastavnjc/
+  external_resources:
+- '[ShadowSocks](https://shadowsocks.org)'}
+---
+
+
+---
+author:
+  name: Linode Community
+  email: docs@linode.com
+description: 'ShadowSocks is a secure socks5 proxy, designed to protect your Internet traffic. It encrypts the traffic between you and the servers, so nobody can spy on you. The main difference compare to VPN is that Shadowsocks is not global, which means not all your traffic will go through the servers.'
 keywords: 'shadowsocks, Ubuntu, proxy'
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 'Wednesday, August 2th, 2017'
