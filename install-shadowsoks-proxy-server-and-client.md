@@ -126,4 +126,3 @@ Before we start shahdowsocks on our server, let’s create a new file and put th
 4.  Once restarted, verify the log file again:
   
         tail /var/log/shadowsocks.log
-    
