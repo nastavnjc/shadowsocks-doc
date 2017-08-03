@@ -53,7 +53,7 @@ Pip is an easy to install package management system which is used to install and
     sudo apt-get install python-pip
     sudo apt-get install python-m2crypto
     
-This will installs the Python PIP and Python-m2crypt packages along with other dependencies. The **m2crypt** package is used to encrypt the tunnel traffic.
+This will installs the Python PIP and Python-m2crypt packages along with other dependencies. The **m2crypto** package is used to encrypt the tunnel traffic.
 
 ## Installing Shadowsocks on Ubuntu 16.04
 
