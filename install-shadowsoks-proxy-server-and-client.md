@@ -48,7 +48,7 @@ In this case we're using ShadowSocks's default port `8000`, but this could be an
 
 ## Installing Pip on Ubuntu 16.04
 
-There are multiple ways to install it on your Linux system, but the most simple way is to install it using `pip` command. Pip is an easy to install package management system which is used to install and manage software packages found in the Python Package Index and it give us the convenient way to install Shadowsocks. Make sure that `pip` it's installed on your system, if not then use below command to install it on your Ubuntu server.
+There are multiple ways to install it on your Linux system, but the most simple way is to install it using `pip` command. Pip is an easy to install package management system which is used to install and manage software packages found in the Python Package Index and it give us the convenient way to install Shadowsocks. Make sure that `pip` it's installed on your system, if not then use below command to install it.
 
     sudo apt-get install python-pip
     sudo apt-get install python-m2crypto
