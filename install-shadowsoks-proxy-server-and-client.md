@@ -48,12 +48,12 @@ In this case we're using ShadowSocks's default port `8000`, but this could be an
 
 ## Installing Pip on Ubuntu 16.04
 
-Pip is an easy to install package management system which is used to install and manage software packages found in the Python Package Index and it give us a convenient way to install Shadowsocks. Make sure that `pip` it's installed on your system, if not then use below command to install it.
+Pip is an easy to install package management system which is used to install and manage software found in the Python Package Index and it give us a convenient way to install Shadowsocks. Make sure that `pip` it's installed on your system, if not then use below command to install it.
 
     sudo apt-get install python-pip
     sudo apt-get install python-m2crypto
     
-This will installs the Python PIP and Python-m2crypt packages along with other dependencies. The **m2crypto** package is used to encrypt the tunnel traffic.
+This will installs the Python PIP and Python-m2crypto packages along with other dependencies. The **m2crypto** package is used to encrypt the tunnel traffic.
 
 ## Installing Shadowsocks on Ubuntu 16.04
 
