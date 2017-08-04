@@ -65,7 +65,7 @@ This will installs the latest available package.
 
 ## Configuring Shadowsocks
 
-Before we start shahdowsocks on our server, let’s create a new file and put the following configuration contents in it that contains your hostname or server ip address , server port number, local port number, a password used to encrypt transfer, connection timeout and encryption method like “aes-256-cfb”, “bf-cfb”, “des-cfb” or “rc4”, etc. The default encryption method used is not secure so we will be using `aes-256-cfb` which is recommended.
+Before we start shahdowsocks on your Linode, let’s create a new file and put the following configuration contents in it that contains your hostname or server ip address , server port number, local port number, a password used to encrypt transfer, connection timeout and encryption method like “aes-256-cfb”, “bf-cfb”, “des-cfb” or “rc4”, etc. The default encryption method used is not secure so we will be using `aes-256-cfb` which is recommended.
 
 1.  Run the below command to open a new file using your command line editor and put the following configuration parameters in it.
 
@@ -89,7 +89,7 @@ Before we start shahdowsocks on our server, let’s create a new file and put th
 > Be sure to replace `your_server_ip` with the ip address of your own Ubuntu Server. Usually, ShadowSocks listen on port `8000` but you can change with your own port. If so, remenber to modify the previous firewall rule accordingly.
 `local-port` is referring to a listening port on your client device (Windows PC, Apple PC, etc.), you can leave it as it is. Be sure to replace **p4ssw0rD** with your own strong password. 
 
-2.  Save and close the configuration file and move to the next step to start your Shahdosocks server on your Ubuntu 16.04 server.
+2.  Save and close the configuration file and move to the next step to start your Shahdosocks server on your Linode.
 
 ## Starting Shadowsocks
 
