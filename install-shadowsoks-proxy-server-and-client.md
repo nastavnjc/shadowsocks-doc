@@ -31,7 +31,7 @@ Let’s say you find yourself in a situation where OpenVPN traffic is blocked or
 
 # SERVER CONFIGURATION
 		
-## Before You Begin
+## 1. Before You Begin
 
 1.  Familiarize yourself with our [Getting Started](/docs/getting-started) guide and complete the steps for setting your Linode's hostname and timezone.
 
@@ -41,14 +41,14 @@ Let’s say you find yourself in a situation where OpenVPN traffic is blocked or
 
         sudo apt-get update && sudo apt-get upgrade
 
-## Open Corresponding Firewall Ports
+## 2. Open Corresponding Firewall Ports
 
 In this case we're using Shadowsocks's default port `8000`, but this could be any port you specify later in the configuration file.
 
     sudo ufw allow 8000/tcp
     sudo ufw enable
 
-## Installing Pip
+## 3. Installing Pip
 
 Pip is an easy to install package management system which is used to install and manage software found in the Python Package Index and it give us a convenient way to install Shadowsocks. Make sure that `pip` it's installed on your system, if not then use below command to install it.
 
@@ -57,7 +57,7 @@ Pip is an easy to install package management system which is used to install and
     
 This will installs the Python PIP and Python-m2crypto packages along with other dependencies. The **m2crypto** package is used to encrypt the tunnel traffic.
 
-## Installing Shadowsocks
+## 4. Installing Shadowsocks
 
 Once the dependent packages are installed, issue the following `pip` command in your command line terminal to install shadowsocks.
 
@@ -65,7 +65,7 @@ Once the dependent packages are installed, issue the following `pip` command in 
 
 This will installs the latest available package.
 
-## Configuring Shadowsocks
+## 5. Configuring Shadowsocks
 
 Before we start Shahdowsocks on your Linode, let’s create a new file and put the following configuration contents in it that contains your hostname or server ip address , server port number, local port number, a password used to encrypt transfer, connection timeout and encryption method like “aes-256-cfb”, “bf-cfb”, “des-cfb” or “rc4”, etc. The default encryption method used is not secure so we will be using `aes-256-cfb` which is recommended.
 
@@ -93,7 +93,7 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
 2.  Save and close the configuration file and move to the next step to start your Shahdosocks server on your Linode.
 
-## Starting Shadowsocks
+## 6. Starting Shadowsocks
 
 1.  Once you have your configuration in place, use below commands to start, stop or restart your Shadowsocks server as shown:
 
@@ -111,7 +111,7 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
         netstat -tlnp
     
-## Starting at system boot
+## 7. Starting at system boot (optional)
 
 1.  Run the below command to open the `/etc/rc.local` file using your command line editor:
 
