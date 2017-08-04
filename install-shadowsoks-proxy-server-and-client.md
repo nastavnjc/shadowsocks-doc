@@ -146,6 +146,10 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
 ![Windows client configuration](https://github.com/nastavnjc/shadowsocks-doc/blob/master/win-client-shadowsocks.png "Windows client configuration")
 
+{: .note}
+>
+> Be sure to replace `your_server_ip`, port `8000` and `p4ssw0rD` with the values you specified in the **Server configuration** section.
+
 ## Configuring Firefox to Use Shadowsocks
 
 1.	Open your firefox web browser on the system where you have installed the Shadowsocks client.
