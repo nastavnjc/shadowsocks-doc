@@ -138,6 +138,15 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
 ## Configuring Firefox to Use Shadowsocks
 
+Open your firefox web browser on the system where you have installed the Shadowsocks client.
+Open the menue from the the top right corner of your firefox web browser, select the `Advanced` option and click on the `settings` under `Network` menu bar.
+
+[image place holder]
+
+Next, under the connection settings, choose `Manual Proxy Configuration` and enter on `SOCKS Host` `127.0.0.1` and port `1080` as shown below.
+
+[firefox-manual-proxy.png]
+
 # Conclusion
 
 Once you have successfully setup your Shadowsocks client side installation and integrated it with your Shadowsocks server, all the traffic will be passed through your proxy server and you will have an easy access to all protected websites in your region that will help you surf the internet privately and securely.
