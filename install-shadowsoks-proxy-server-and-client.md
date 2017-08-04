@@ -139,7 +139,7 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 ## Configuring Firefox to Use Shadowsocks
 
 Open your firefox web browser on the system where you have installed the Shadowsocks client.
-Open the menu from the the top right corner of your firefox web browser, select the `Advanced` option and click on the `Settings` button under the `Network` menu bar.
+Open the menu from the top right corner of your firefox web browser, select the `Advanced` option and click on the `Settings` button under the `Network` menu bar.
 
 ![Firefox proxy setting](https://github.com/nastavnjc/shadowsocks-doc/blob/master/firefox-set-proxy.png "Firefox proxy setting")
 
