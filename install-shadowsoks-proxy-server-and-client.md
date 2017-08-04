@@ -146,9 +146,13 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
 	![Linux client configuration](https://github.com/nastavnjc/shadowsocks-doc/blob/master/linux-client-shadowsocks-qt5.png "Linux client configuration")
 	
-4.	A new window will be opened for the connection manager, click to the `Add` and then choose `Manual` option to configure your connection settings.
+4.	A new window will be opened for the connection manager, click to the `Add` and then choose `Manually` option to configure your connection settings.
 
 	![Linux client configuration](https://github.com/nastavnjc/shadowsocks-doc/blob/master/linux-client-shadowsocks-conn.png "Linux client configuration")
+	
+5.	Edit your client profile under the new connection manager as shown below.
+
+	![Linux client configuration](https://github.com/nastavnjc/shadowsocks-doc/blob/master/linux-client-shadowsocks-conn2.png "Linux client configuration")
 
 ## Windows operating system
 
