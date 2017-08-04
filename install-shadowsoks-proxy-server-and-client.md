@@ -129,7 +129,7 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
   
         tail /var/log/shadowsocks.log
 		
-# Client configutation
+# Client configuration
 
 ## Linux operating system
 
