@@ -138,11 +138,11 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
 ## Configuring Firefox to Use Shadowsocks
 
-## Conclusion
+# Conclusion
 
 Once you have successfully setup your Shadowsocks client side installation and integrated it with your Shadowsocks server, all the traffic will be passed through your proxy server and you will have an easy access to all protected websites in your region that will help you surf the internet privately and securely.
 
-## More information
+# More information
 
 You may wish to consult the following resources for additional information on this topic. While these are provided in the hope that they will be useful, please note that we cannot vouch for the accuracy or timeliness of externally hosted materials.
 
