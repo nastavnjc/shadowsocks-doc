@@ -156,7 +156,7 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 	
 {: .note}
 >
-> Be sure to match `Server Address`, `Server Port`, `Password` and `Local Port` with the values you specified in the above **5. Configuring Shadowsocks** section.
+> Be sure to match `Server Address`, `Server Port`, `Password`, `Local Port` and `Encryption Method` with the values you specified in the above **5. Configuring Shadowsocks** section.
 
 6.	Click on the `OK` key to add your new profile and then to the `connect` button to start using your Shadowsocks proxy.
 
