@@ -133,6 +133,16 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
 ## Linux operating system
 
+1.	On your Linux system, run the following command to install Shadowsocks client using PPA by adding a new apt repository.
+
+	    sudo add-apt-repository ppa:hzwhuang/ss-qt5
+
+2.	Then update your system, so that the newly added repository should be updated and then we can install the Shadowsocks client by issuing the below command.		
+
+	    sudo apt-get update
+		sudo apt-get install shadowsocks-qt5
+		
+3.	Launch the Shadowsocks-Qt5 from the application manager of your Linux system.
 
 ## Windows operating system
 
