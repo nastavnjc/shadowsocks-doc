@@ -143,11 +143,11 @@ Open the menu from the the top right corner of your firefox web browser, select 
 
 ![Firefox proxy setting](https://github.com/nastavnjc/shadowsocks-doc/blob/master/firefox-set-proxy.png "Firefox proxy setting")
 
-Next, under the connection settings, choose `Manual Proxy Configuration` and enter on `SOCKS Host` `127.0.0.1` and port `1080` as shown below.
+Next, under the connection settings, choose `Manual Proxy Configuration` and enter corresponding values as shown below.
 
 ![Firefox proxy setting](https://github.com/nastavnjc/shadowsocks-doc/blob/master/firefox-manual-proxy.png "Firefox proxy setting")
 
-Now press the **OK** key to start using your Shadowsocks proxy server.
+Now press the `OK` key to start surfing the web using your Shadowsocks proxy server.
 
 # Conclusion
 
