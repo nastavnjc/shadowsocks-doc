@@ -19,7 +19,7 @@ external_resources:
 *This is a Linode Community guide. If you're an expert on something we need a guide on, you too can [get paid to write for us](https://www.linode.com/docs/contribute).*
 <hr>
 
-[Shadowsocks](https://shadowsocks.org/) is a secure socks5 proxy, designed to protect your Internet traffic. It encrypts the traffic between you and the servers, so nobody can spy on you. The main difference compare to VPN is that Shadowsocks is not global, which means not all your traffic will go through the server. If you want to use an Instant Messenger or a uTorrent, you will have to configure those programs settings to use the applicable Socks 5 proxy and port.
+[Shadowsocks](https://shadowsocks.org/) is a secure socks5 proxy, designed to protect your internet traffic. It encrypts the traffic between you and the servers, so nobody can spy on you. The main difference compare to VPN is that Shadowsocks is not global, which means not all your traffic will go through the server. If you want to use an Instant Messenger or a uTorrent, you will have to configure those programs settings to use the applicable Socks 5 proxy and port.
 
 ![Install Shadowsocks on Ubuntu 16.04](https://github.com/nastavnjc/shadowsocks-doc/blob/master/install-shadowsock-on-ubuntu-16-04.png "Install Shadowsocks on Ubuntu 16.04")
 
@@ -128,3 +128,19 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 4.  Once restarted, verify the log file again:
   
         tail /var/log/shadowsocks.log
+		
+# CLIENT CONFIGURATION
+
+## Linux operating system
+
+
+## Windows operating system
+
+## Configuring Firefox to Use Shadowsocks
+
+## Conclusion
+
+Once you have successfully setup your Shadowsocks client side installation and integrated it with your Shadowsocks server, all the traffic will be passed through your proxy server and you will have an easy access to all protected websites in your region that will help you surf the internet privately and securely.
+
+## More information
+
