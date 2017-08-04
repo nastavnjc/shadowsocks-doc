@@ -38,6 +38,17 @@ Let’s say you find yourself in a situation where OpenVPN traffic is blocked or
 3.  Log in to your Linode via SSH and check for updates using `apt-get` package manager.
 
         sudo apt-get update && sudo apt-get upgrade
+		
+		
+## Before You Begin
+
+1.  Familiarize yourself with our [Getting Started](/docs/getting-started) guide and complete the steps for setting your Linode's hostname and timezone.
+
+2.  This guide will use `sudo` wherever possible. Complete the sections of our [Securing Your Server](/docs/security/securing-your-server) to create a standard user account, harden SSH access and remove unnecessary network services. Do **not** follow the Configure a Firewall section yet--this guide includes firewall rules specifically for an OpenVPN server.
+
+3.  Update your system:
+
+        sudo apt-get update && sudo apt-get upgrade
 
 ## Open Corresponding Firewall Ports
 
