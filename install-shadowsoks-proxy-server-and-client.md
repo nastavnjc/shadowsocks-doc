@@ -2,7 +2,7 @@
 author:
   name: Linode Community
   email: docs@linode.com
-description: 'ShadowSocks is a secure socks5 proxy, designed to protect your Internet traffic. It encrypts the traffic between you and the servers, so nobody can spy on you. The main difference compare to VPN is that Shadowsocks is not global, which means not all your traffic will go through the servers.'
+description: 'Shadowsocks is a secure socks5 proxy, designed to protect your Internet traffic. It encrypts the traffic between you and the servers, so nobody can spy on you. The main difference compare to VPN is that Shadowsocks is not global, which means not all your traffic will go through the servers.'
 keywords: 'shadowsocks, Ubuntu, proxy'
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 'Wednesday, August 2th, 2017'
@@ -13,17 +13,17 @@ title: 'Installing and configuring a ShawdowSocks Proxy Server and Client on Ubu
 contributor:
   name: Roberto Rossi
 external_resources:
- - '[ShadowSocks](https://shadowsocks.org/)'
+ - '[Shadowsocks](https://shadowsocks.org/)'
 ---
 
 *This is a Linode Community guide. If you're an expert on something we need a guide on, you too can [get paid to write for us](https://www.linode.com/docs/contribute).*
 <hr>
 
-[ShadowSocks](https://shadowsocks.org/) is a secure socks5 proxy, designed to protect your Internet traffic. It encrypts the traffic between you and the servers, so nobody can spy on you. The main difference compare to VPN is that Shadowsocks is not global, which means not all your traffic will go through the server. If you want to use an Instant Messenger or a uTorrent, you will have to configure those programs settings to use the applicable Socks 5 proxy and port.
+[Shadowsocks](https://shadowsocks.org/) is a secure socks5 proxy, designed to protect your Internet traffic. It encrypts the traffic between you and the servers, so nobody can spy on you. The main difference compare to VPN is that Shadowsocks is not global, which means not all your traffic will go through the server. If you want to use an Instant Messenger or a uTorrent, you will have to configure those programs settings to use the applicable Socks 5 proxy and port.
 
-![Install ShadowSocks on Ubuntu 16.04](https://github.com/nastavnjc/shadowsocks-doc/blob/master/install-shadowsock-on-ubuntu-16-04.png "Install ShadowSocks on Ubuntu 16.04")
+![Install Shadowsocks on Ubuntu 16.04](https://github.com/nastavnjc/shadowsocks-doc/blob/master/install-shadowsock-on-ubuntu-16-04.png "Install Shadowsocks on Ubuntu 16.04")
 
-Let’s say you find yourself in a situation where OpenVPN traffic is blocked or throttled, ShadowSocks is a good alternative to tunnel the entire network traffic.
+Let’s say you find yourself in a situation where OpenVPN traffic is blocked or throttled, Shadowsocks is a good alternative to tunnel the entire network traffic.
 
 {: .note}
 >
@@ -33,7 +33,7 @@ Let’s say you find yourself in a situation where OpenVPN traffic is blocked or
 
 1.  Familiarize yourself with our [Getting Started](/docs/getting-started) guide and complete the steps for setting your Linode's hostname and timezone.
 
-2.  This guide will use `sudo` wherever possible. Complete the sections of our [Securing Your Server](/docs/security/securing-your-server) to create a standard user account, harden SSH access and remove unnecessary network services. Do **not** follow the Configure a Firewall section yet--this guide includes firewall rules specifically for a ShadowSocks server.
+2.  This guide will use `sudo` wherever possible. Complete the sections of our [Securing Your Server](/docs/security/securing-your-server) to create a standard user account, harden SSH access and remove unnecessary network services. Do **not** follow the Configure a Firewall section yet--this guide includes firewall rules specifically for a Shadowsocks server.
 
 3.  Update your system:
 
@@ -41,7 +41,7 @@ Let’s say you find yourself in a situation where OpenVPN traffic is blocked or
 
 ## Open Corresponding Firewall Ports
 
-In this case we're using ShadowSocks's default port `8000`, but this could be any port you specify later in the configuration file.
+In this case we're using Shadowsocks's default port `8000`, but this could be any port you specify later in the configuration file.
 
     sudo ufw allow 8000/tcp
     sudo ufw enable
@@ -86,7 +86,7 @@ Before we start shahdowsocks on your Linode, let’s create a new file and put t
 
 {: .note}
 >
-> Be sure to replace `your_server_ip` with the ip address of your own Ubuntu Server. Usually, ShadowSocks listen on port `8000` but you can change with your own port. If so, remenber to modify the previous firewall rule accordingly.
+> Be sure to replace `your_server_ip` with the ip address of your own Ubuntu Server. Usually, Shadowsocks listen on port `8000` but you can change with your own port. If so, remenber to modify the previous firewall rule accordingly.
 `local-port` is referring to a listening port on your client device (Windows PC, Apple PC, etc.), you can leave it as it is. Be sure to replace **p4ssw0rD** with your own strong password. 
 
 2.  Save and close the configuration file and move to the next step to start your Shahdosocks server on your Linode.
