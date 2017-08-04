@@ -138,11 +138,13 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
 {: .note}
 >
-> Make sure that your Windows system has **.NET Framework 4.6.2** installed other wise you will not be able to install the Shadowsocks Client package.
+> Make sure that your Windows system has **.NET Framework 4.6.2** installed otherwise you will not be able to install the Shadowsocks Client package.
 
-[Download](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients) the Shadowsocks Client package for Windows, extract it and execute it.
+1.	[Download](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients) the Shadowsocks Client package for Windows, extract it and execute it.
 
-Once installed, launch the client and configure the server parameters in it as shown below.
+2.	Once installed, launch the client and configure the server parameters in it as shown below.
+
+![Windows client configuration](https://github.com/nastavnjc/shadowsocks-doc/blob/master/win-client-shadowsocks.png "Windows client configuration")
 
 ## Configuring Firefox to Use Shadowsocks
 
