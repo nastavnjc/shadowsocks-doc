@@ -33,11 +33,11 @@ Let’s say you find yourself in a situation where OpenVPN traffic is blocked or
 		
 ## 1. Before You Begin
 
-1.1  Familiarize yourself with our [Getting Started](/docs/getting-started) guide and complete the steps for setting your Linode's hostname and timezone.
+1.  Familiarize yourself with our [Getting Started](/docs/getting-started) guide and complete the steps for setting your Linode's hostname and timezone.
 
-1.2  This guide will use `sudo` wherever possible. Complete the sections of our [Securing Your Server](/docs/security/securing-your-server) to create a standard user account, harden SSH access and remove unnecessary network services. Do **not** follow the Configure a Firewall section yet--this guide includes firewall rules specifically for a Shadowsocks server.
+2.  This guide will use `sudo` wherever possible. Complete the sections of our [Securing Your Server](/docs/security/securing-your-server) to create a standard user account, harden SSH access and remove unnecessary network services. Do **not** follow the Configure a Firewall section yet--this guide includes firewall rules specifically for a Shadowsocks server.
 
-1.3  Update your system:
+3.  Update your system:
 
         sudo apt-get update && sudo apt-get upgrade
 
@@ -69,7 +69,7 @@ This will installs the latest available package.
 
 Before we start Shahdowsocks on your Linode, let’s create a new file and put the following configuration contents in it that contains your hostname or server ip address , server port number, local port number, a password used to encrypt transfer, connection timeout and encryption method like “aes-256-cfb”, “bf-cfb”, “des-cfb” or “rc4”, etc. The default encryption method used is not secure so we will be using `aes-256-cfb` which is recommended.
 
-5.1  Run the below command to open a new file using your command line editor and put the following configuration parameters in it.
+1.  Run the below command to open a new file using your command line editor and put the following configuration parameters in it.
 
         sudo vim /etc/shadowsocks.json
     
@@ -91,11 +91,11 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 > Be sure to replace `your_server_ip` with the ip address of your own Ubuntu Server. Usually, Shadowsocks listen on port `8000` but you can change with your own port. If so, remenber to modify the previous firewall rule accordingly.
 `local-port` is referring to a listening port on your client device (Windows PC, Apple PC, etc.), you can leave it as it is. Be sure to replace **p4ssw0rD** with your own strong password. 
 
-5.2  Save and close the configuration file and move to the next step to start your Shahdosocks server on your Linode.
+2.  Save and close the configuration file and move to the next step to start your Shahdosocks server on your Linode.
 
 ## 6. Starting Shadowsocks
 
-6.1  Once you have your configuration in place, use below commands to start, stop or restart your Shadowsocks server as shown:
+1.  Once you have your configuration in place, use below commands to start, stop or restart your Shadowsocks server as shown:
 
         sudo ssserver -c /etc/shadowsocks.json -d start
     
@@ -103,28 +103,28 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
     
         sudo ssserver -c /etc/shadowsocks.json -d restart
     
-6.2  Check from its log file if the server has been started successfully, any error will be reported here:
+2.  Check from its log file if the server has been started successfully, any error will be reported here:
 
         tail /var/log/shadowsocks.log
     
-6.3  Also check if the server is listening on port `8000` using below command:
+3.  Also check if the server is listening on port `8000` using below command:
 
         netstat -tlnp
     
 ## 7. Starting at system boot (optional)
 
-7.1  Run the below command to open the `/etc/rc.local` file using your command line editor:
+1.  Run the below command to open the `/etc/rc.local` file using your command line editor:
 
         sudo vim /etc/rc.local
 
-7.2  Add the following line to auto start Shadosocks service at boot:
+2.  Add the following line to auto start Shadosocks service at boot:
 
         /usr/bin/python /usr/local/bin/ssserver -c /etc/shadowsocks.json -d start
         
-7.3  It's a good idea to restart your server to see if everything is working:
+3.  It's a good idea to restart your server to see if everything is working:
 
         sudo shutdown -r now
 
-7.4  Once restarted, verify the log file again:
+4.  Once restarted, verify the log file again:
   
         tail /var/log/shadowsocks.log
