@@ -147,6 +147,8 @@ Next, under the connection settings, choose `Manual Proxy Configuration` and ent
 
 ![Firefox proxy setting](https://github.com/nastavnjc/shadowsocks-doc/blob/master/firefox-manual-proxy.png "Firefox proxy setting")
 
+Now press the **OK** key to start using your Shadowsocks proxy server.
+
 # Conclusion
 
 Once you have successfully setup your Shadowsocks client side installation and integrated it with your Shadowsocks server, all the traffic will be passed through your proxy server and you will have an easy access to all protected websites in your region that will help you surf the internet privately and securely.
