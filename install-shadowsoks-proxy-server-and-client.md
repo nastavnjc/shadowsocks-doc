@@ -144,3 +144,7 @@ Once you have successfully setup your Shadowsocks client side installation and i
 
 ## More information
 
+You may wish to consult the following resources for additional information on this topic. While these are provided in the hope that they will be useful, please note that we cannot vouch for the accuracy or timeliness of externally hosted materials.
+
+[Shadowsocks main site](https://shadowsocks.org/)
+[Shadowsocks on GitHub](https://github.com/shadowsocks)
