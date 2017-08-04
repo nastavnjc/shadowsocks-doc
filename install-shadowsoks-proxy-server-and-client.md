@@ -144,7 +144,7 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 		
 3.	Launch the Shadowsocks-Qt5 from the application manager of your Linux system.
 
-	![Lunux client configuration](https://github.com/nastavnjc/shadowsocks-doc/blob/master/linux-client-shadowsocks-qt5 "Linux client configuration")
+	![Linux client configuration](https://github.com/nastavnjc/shadowsocks-doc/blob/master/linux-client-shadowsocks-qt5.png "Linux client configuration")
 
 ## Windows operating system
 
