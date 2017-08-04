@@ -143,7 +143,7 @@ Open the menu from the the top right corner of your firefox web browser, select 
 
 ![Firefox proxy setting](https://github.com/nastavnjc/shadowsocks-doc/blob/master/firefox-set-proxy.png "Firefox proxy setting")
 
-Next, under the connection settings, choose `Manual Proxy Configuration` and enter corresponding values as shown below.
+Next, under the connection settings, choose `Manual proxy configuration` and enter corresponding values as shown below.
 
 ![Firefox proxy setting](https://github.com/nastavnjc/shadowsocks-doc/blob/master/firefox-manual-proxy.png "Firefox proxy setting")
 
