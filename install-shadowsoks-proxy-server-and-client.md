@@ -148,7 +148,7 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
 {: .note}
 >
-> Be sure to match `Server Address`, `Server Port`, `Password` and `Local Port` with the values you specified in the [**Server configuration**] (#5-configuring-shadowsocks) section.
+> Be sure to match `Server Address`, `Server Port`, `Password` and `Local Port` with the values you specified in the above **5. Configuring Shadowsocks** section.
 
 ## Configuring Firefox to Use Shadowsocks
 
