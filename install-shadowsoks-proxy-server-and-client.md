@@ -50,6 +50,7 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 1.  Run the below command to open a new file using your command line editor and put the following configuration parameters in it.
 ```
         sudo vim /etc/shadowsocks.json
+	
 	{
     		"server":"your_server_ip",
     		"server_port":8000,
