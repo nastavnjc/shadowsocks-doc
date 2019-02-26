@@ -55,9 +55,9 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
     		"server":"your_server_ip",
     		"server_port":8000,
     		"local_port":1080,
-   		 "password":"p4ssw0rD",
-   		 "timeout":600,
-   		 "method":"aes-256-cfb"
+   		"password":"p4ssw0rD",
+   		"timeout":600,
+   		"method":"aes-256-cfb"
 	}
 ```
 >
