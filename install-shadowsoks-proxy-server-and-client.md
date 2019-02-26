@@ -4,7 +4,6 @@
 
 Let’s say you find yourself in a situation where OpenVPN traffic is blocked or throttled, Shadowsocks is a good alternative to tunnel the entire network traffic.
 
-{: .note}
 >
 > This guide is written for a non-root user. Commands that require elevated privileges are prefixed with `sudo`. If you’re not familiar with the `sudo` command, see the [Users and Groups](/docs/tools-reference/linux-users-and-groups) guide.
 
@@ -52,9 +51,7 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
         sudo vim /etc/shadowsocks.json
     
-{: .file }
 /etc/shadowsocks.json
-:   ~~~ conf
 {
     "server":"your_server_ip",
     "server_port":8000,
@@ -63,9 +60,6 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
     "timeout":600,
     "method":"aes-256-cfb"
 }
-    ~~~
-
-{: .note}
 >
 > Be sure to replace `your_server_ip` with the ip address of your own Ubuntu Server. Usually, Shadowsocks listen on port `8000` but you can change with your own port. If so, remenber to modify the previous firewall rule accordingly.
 `local-port` is referring to a listening port on your client device (Windows PC, Apple PC, etc.), you can leave it as it is. Be sure to replace **p4ssw0rD** with your own strong password. 
@@ -133,13 +127,11 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
 	![Linux client configuration](https://github.com/nastavnjc/shadowsocks-doc/blob/master/linux-client-shadowsocks-conn2.png "Linux client configuration")
 	
-{: .note}
 >
 > Be sure to match `Server Address`, `Server Port`, `Password`, `Local Port` and `Encryption Method` with the values you specified in the above **5. Configuring Shadowsocks** section.
 
 ## Windows operating system
 
-{: .note}
 >
 > Make sure that your Windows system has **.NET Framework 4.6.2** installed otherwise you will not be able to install the Shadowsocks Client package.
 
@@ -149,7 +141,6 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 
 ![Windows client configuration](https://github.com/nastavnjc/shadowsocks-doc/blob/master/win-client-shadowsocks.png "Windows client configuration")
 
-{: .note}
 >
 > Be sure to match `Server Address`, `Server Port`, `Password` and `Local Port` with the values you specified in the above **5. Configuring Shadowsocks** section.
 
