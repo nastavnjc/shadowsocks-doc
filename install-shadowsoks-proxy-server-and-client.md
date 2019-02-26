@@ -50,7 +50,8 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
 1.  Run the below command to open a new file using your command line editor and put the following configuration parameters in it.
 
         sudo vim /etc/shadowsocks.json
-    
+
+<code>
 /etc/shadowsocks.json
 {
     "server":"your_server_ip",
@@ -60,6 +61,7 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
     "timeout":600,
     "method":"aes-256-cfb"
 }
+</code>
 >
 > Be sure to replace `your_server_ip` with the ip address of your own Ubuntu Server. Usually, Shadowsocks listen on port `8000` but you can change with your own port. If so, remenber to modify the previous firewall rule accordingly.
 `local-port` is referring to a listening port on your client device (Windows PC, Apple PC, etc.), you can leave it as it is. Be sure to replace **p4ssw0rD** with your own strong password. 
