@@ -82,7 +82,7 @@ Before we start Shahdowsocks on your Linode, let’s create a new file and put t
     
 3.  Also check if the server is listening on port `8000` using below command:
 
-        netstat -tlnp | grep "LISTEN"
+        netstat -tlunap | grep "LISTEN"
     
 ## 7. Starting at system boot (optional)
 
